@@ -6,8 +6,8 @@ import React from 'react';
 export default class ImageSlider extends React.Component {
 
     constructor() {
-        super() 
-    
+        super()
+
         this.state = {
           currentSlideIndex: 0
         }
