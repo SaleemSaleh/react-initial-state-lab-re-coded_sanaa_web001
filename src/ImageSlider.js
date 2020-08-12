@@ -1,5 +1,4 @@
 // your ImageSlider code here!
-// your ImageSlider code here!
 import React from 'react';
 
 
