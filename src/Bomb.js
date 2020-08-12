@@ -7,8 +7,8 @@ import React from 'react';
 export default class Bomb extends React.Component {
 
     constructor(props) {
-        super() 
-    
+        super()
+
         this.state = {
           secondsLeft: props.initialCount
         }
@@ -16,10 +16,10 @@ export default class Bomb extends React.Component {
 
     render(){
         let message;
-         
+
         if(this.state.secondsLeft === 0) {
             message ='Boom!';
-        }else 
+        }else
         {
             message = `${this.state.secondsLeft} seconds left before I go boom!`;
         }
