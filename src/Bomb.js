@@ -1,5 +1,4 @@
 // your Bomb code here!
-// your Bomb code here!
 
 import React from 'react';
 
